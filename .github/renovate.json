@@ -1,0 +1,20 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:best-practices"],
+  "labels": ["dependencies"],
+  "rangeStrategy": "replace",
+  "packageRules": [
+    {
+      "description": "Minor and patch dependencies updates",
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "Minor and patch dependency updates",
+      "groupSlug": "minor-patch"
+    },
+    {
+      "matchUpdateTypes": ["major"],
+      "groupName": null,
+      "automerge": false,
+      "separateMajorMinor": true
+    }
+  ]
+}

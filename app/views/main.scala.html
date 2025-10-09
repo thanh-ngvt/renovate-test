@@ -1,0 +1,24 @@
+@(title: String, captchaType: CaptchaType)(content: Html)
+
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>@title</title>
+        <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/main.css")">
+        <link rel="shortcut icon" type="image/png" href="@routes.Assets.versioned("images/favicon.png")">
+            @if(captchaType == CaptchaType.HCAPTCHA) {
+                <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
+            }
+            @if(captchaType == CaptchaType.TURNSTILE) {
+                <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit"></script>
+            }
+
+            @if(captchaType == CaptchaType.RECAPTCHA) {
+                <script src="https://www.google.com/recaptcha/enterprise.js"></script>
+            }
+    </head>
+    <body>
+    @content
+    </body>
+</html>

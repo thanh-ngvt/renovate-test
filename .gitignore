@@ -1,0 +1,12 @@
+logs
+target
+.history
+tmp
+temp
+/.bsp
+/.idea_modules
+/.classpath
+/.project
+/.settings
+/test/automationTests/node_modules
+/.idea/.name
