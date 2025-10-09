@@ -7,14 +7,11 @@
     {
       "description": "Minor and patch dependencies updates",
       "matchUpdateTypes": ["minor", "patch"],
-      "groupName": "Minor and patch dependency updates",
-      "groupSlug": "minor-patch"
+      "groupName": "Minor and patch dependency updates"
     },
     {
       "matchUpdateTypes": ["major"],
-      "groupName": null,
-      "automerge": false,
-      "separateMajorMinor": true
+      "groupName": null
     }
   ]
 }
