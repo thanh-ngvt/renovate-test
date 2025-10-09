@@ -19,7 +19,7 @@ object SwaggerUiPlugin extends AutoPlugin {
 
   import autoImport.*
 
-  val swaggerUiVersion = "5.28.1"
+  val swaggerUiVersion = "5.29.1"
 
   override lazy val projectSettings = Seq(
     swaggerUiGenerate := { mappings: Seq[PathMapping] =>
