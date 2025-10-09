@@ -19,3 +19,5 @@ jobs:
         env:
           LOG_LEVEL: DEBUG
           RENOVATE_REPOSITORIES: 'thanh-ngvt/renovate-test'
+          GIT_AUTHOR_NAME: "renovate[bot]"
+          GIT_COMMITTER_NAME: "renovate[bot]"
