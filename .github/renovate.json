@@ -4,7 +4,6 @@
   "labels": ["dependencies"],
   "rangeStrategy": "replace",
   "dependencyDashboard": false,
-  "prLimit": 5,
   "prHourlyLimit": 5,
   "packageRules": [
     {
