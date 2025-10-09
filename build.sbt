@@ -29,7 +29,7 @@ libraryDependencies ++= Seq(guice, javaWs,
       "com.nimbusds" % "oauth2-oidc-sdk" % "11.27.1",
       "net.logstash.logback" % "logstash-logback-encoder" % "8.1" exclude("com.fasterxml.jackson.core", "jackson-databind"), // jackson gets excluded because of version conflict
       "org.webjars.npm" % "github-com-kenwheeler-slick" % "1.8.0",
-      "org.webjars.npm" % "bootstrap" % "3.4.1",
+      "org.webjars.npm" % "bootstrap" % "5.3.8",
       "org.webjars.npm" % "bootstrap-datepicker" % "1.10.0",
       "org.mockito" % "mockito-core" % "5.19.0" % Test,
       "jakarta.xml.ws" % "jakarta.xml.ws-api" % "4.0.2",
