@@ -24,7 +24,7 @@ libraryDependencies ++= Seq(guice, javaWs,
       "commons-codec" % "commons-codec" % "1.19.0",
       "org.apache.tika" % "tika-core" % "3.2.2",
       "net.coobird" % "thumbnailator" % "0.4.20",
-      "com.opencsv" % "opencsv" % "5.12.0",
+      "com.opencsv" % "opencsv" % "5.11.0",
       "com.github.mwiede" % "jsch" % "2.27.3",
       "com.nimbusds" % "oauth2-oidc-sdk" % "11.27.1",
       "net.logstash.logback" % "logstash-logback-encoder" % "8.1" exclude("com.fasterxml.jackson.core", "jackson-databind"), // jackson gets excluded because of version conflict
