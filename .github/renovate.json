@@ -14,6 +14,10 @@
     {
       "matchUpdateTypes": ["major"],
       "groupName": null
+    },
+    {
+      "matchPackageNames": ["com.microsoft.sqlserver:mssql-jdbc"],
+      "ignoreVersions": [".*\\.x86$", ".*\\.jre8$"]
     }
   ]
 }
