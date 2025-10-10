@@ -17,7 +17,7 @@
     },
     {
       "matchPackageNames": ["com.microsoft.sqlserver:mssql-jdbc"],
-      "allowedVersions": ".*\\.jre11$"
+      "allowedVersions": "/.*\\.jre11$/"
     }
   ]
 }
