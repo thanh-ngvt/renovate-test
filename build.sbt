@@ -27,7 +27,7 @@ libraryDependencies ++= Seq(guice, javaWs,
       "com.opencsv" % "opencsv" % "5.12.0",
       "com.github.mwiede" % "jsch" % "2.27.3",
       "com.nimbusds" % "oauth2-oidc-sdk" % "11.29.2",
-      "net.logstash.logback" % "logstash-logback-encoder" % "8.1" exclude("com.fasterxml.jackson.core", "jackson-databind"), // jackson gets excluded because of version conflict
+      "net.logstash.logback" % "logstash-logback-encoder" % "9.0" exclude("com.fasterxml.jackson.core", "jackson-databind"), // jackson gets excluded because of version conflict
       "org.webjars.npm" % "github-com-kenwheeler-slick" % "1.8.0",
       "org.webjars.npm" % "bootstrap" % "3.4.1",
       "org.webjars.npm" % "bootstrap-datepicker" % "1.10.0",
